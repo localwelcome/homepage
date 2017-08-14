@@ -1,0 +1,50 @@
+@charset "utf-8";
+@import "bootstrap";
+
+body {
+  font-family: 'Karla', -webkit-system-font, sans-serif;
+  color: black;
+  background-color: rgb(247, 248, 241);
+}
+
+.logo {
+  float:left;
+  width: 50%;
+  padding: 25px;
+  svg {
+    width: 100px;
+  }
+}
+
+.navigation {
+  float: right;
+  width: 20%;
+  padding: 40px 0;
+  font-size:1.2em;
+  p {
+    padding: 0;
+    margin: 0;
+    a{
+      color: black;
+    }
+  }
+}
+
+.text {
+  padding-top: 1em;
+  font-size: 25px;
+}
+
+
+.team_page {
+  img {
+    height: 223px;
+    margin-bottom: 1em;
+  }
+}
+
+.sub {
+  font-size: 60%;
+  color: #ccc;
+  font-weight: normal;
+}
